@@ -1,13 +1,13 @@
-function valueDetective(value) {
+function describeValue(value) {
     const type = typeof value;
     const status = value ? 'truthy' : 'falsy';
     return `${type} | ${status}`;
 }
-console.log(valueDetective("hello"));
-console.log(valueDetective(""));
-console.log(valueDetective(25));
-console.log(valueDetective(0));
-console.log(valueDetective(true));
-console.log(valueDetective(null));
-console.log(valueDetective(undefined));
+console.log(describeValue("hello"));
+console.log(describeValue(""));
+console.log(describeValue(25));
+console.log(describeValue(0));
+console.log(describeValue(true));
+console.log(describeValue(null));
+console.log(describeValue(undefined));
 
