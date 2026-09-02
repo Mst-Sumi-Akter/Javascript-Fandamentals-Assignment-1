@@ -346,13 +346,3 @@ Through this assignment, the following JavaScript fundamentals are practiced:
 
 ---
 
-## 📂 Project Structure
-
-```text
-Foundation-Program-Assignment-1/
-│
-├── assignment.js
-└── README.md
-```
-
----
